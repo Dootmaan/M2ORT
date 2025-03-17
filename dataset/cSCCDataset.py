@@ -95,7 +95,8 @@ class cSCCDataset(torch.utils.data.Dataset):
                     continue
                 spot_sum=np.sum(feats)
                 if spot_sum==0:
-                    print('spot_sum=0. skipped:',idx)
+                    if self.verbose:
+                        print('spot_sum=0. skipped:',idx)
                     continue
                 feats=np.log1p(feats*1000000/spot_sum)
                 self.st_spots_pixel_map.append([idx,x,y])

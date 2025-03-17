@@ -1,15 +1,13 @@
 # M2ORT: Many-To-One Regression Transformer for Spatial Transcriptomics Prediction from Histopathology Images
 
-Official code for our IJCAI 2024 Paper *M2ORT: Many-To-One Regression Transformer for Spatial Transcriptomics Prediction from Histopathology Images.*
-
-This is a preview of the code for M2ORT. Please do not redistribute it without contacting the authors as we have not included the LICENSE file yet. The maximum file size for submission is 50Mb so we only provide the M2ORT-Small weights for HBC. Please check our Github website for the full pretrained weights after paper publication.
+This is a preview of the code for M2ORT. Please do not redistribute it without contacting the authors as we have not included the LICENSE file yet. 
 
 ### 1. Clone the code
 
 Clone the code by running:
 
 ```
-git clone git@github.com/anonymous/M2ORT.git
+git clone git@github.com/Dootmaan/M2ORT.git
 ```
 
 then cd into this directory.
