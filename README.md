@@ -2,7 +2,7 @@
 
 This is a preview of the code for M2ORT. Please do not redistribute it without contacting the authors as we have not included the LICENSE file yet.
 
-Please note that this is NOT the code for our AAAI 2025 work M2OST. M2OST has a different network structure design, so the pretrained weights in this repo won't work on M2OST. We are still sweeping the code of M2OST right now, so please wait for that part of release with patient. You are welcome to send a pull request for any repos.
+Please note that this is NOT the code for our AAAI 2025 work [M2OST](https://github.com/Dootmaan/M2OST). M2OST has a different network structure design, so the pretrained weights in this repo won't work on M2OST. We are still sweeping the code of M2OST right now, so please wait for that part of release with patient. You are welcome to send a pull request for any repos.
 
 ### 1. Clone the code
 
