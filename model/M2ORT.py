@@ -55,7 +55,7 @@ class Attention(nn.Module):
         x = self.norm(x).chunk(3, dim = -1)
         qkv1=self.to_qkv1(x[0])
         qkv2=self.to_qkv2(x[1])
-        qkv3=self.to_qkv2(x[2])
+        qkv3=self.to_qkv3(x[2])
         qkv=(qkv1, qkv2, qkv3)
         # qkv = self.to_qkv(x).chunk(3, dim = -1)
         q, k, v = map(lambda t: rearrange(t, 'b n (h d) -> b h n d', h = self.heads), qkv)
